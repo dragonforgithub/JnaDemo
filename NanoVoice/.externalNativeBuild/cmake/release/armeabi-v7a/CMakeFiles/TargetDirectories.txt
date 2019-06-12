@@ -1,0 +1,3 @@
+D:/work/Android/project/androidStudio/JNA_Tool/JnaDemo/NanoVoice/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/appJNI.dir
+D:/work/Android/project/androidStudio/JNA_Tool/JnaDemo/NanoVoice/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
+D:/work/Android/project/androidStudio/JNA_Tool/JnaDemo/NanoVoice/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir

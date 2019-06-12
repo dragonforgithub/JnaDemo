@@ -1,0 +1,21 @@
+{
+  "buildFiles": [
+    "D:\\work\\Android\\project\\androidStudio\\JNA_Tool\\JnaDemo\\NanoVoice\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\drago\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\work\\Android\\project\\androidStudio\\JNA_Tool\\JnaDemo\\NanoVoice\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "nanovoice-Debug-armeabi-v7a": {
+      "artifactName": "nanovoice",
+      "abi": "armeabi-v7a",
+      "output": "D:\\work\\Android\\project\\androidStudio\\JNA_Tool\\JnaDemo\\NanoVoice\\src\\main\\jniLibs\\armeabi-v7a\\libnanovoice.so"
+    },
+    "appJNI-Debug-armeabi-v7a": {
+      "artifactName": "appJNI",
+      "buildCommand": "C:\\Users\\drago\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\work\\Android\\project\\androidStudio\\JNA_Tool\\JnaDemo\\NanoVoice\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target appJNI",
+      "abi": "armeabi-v7a",
+      "output": "D:\\work\\Android\\project\\androidStudio\\JNA_Tool\\JnaDemo\\NanoVoice\\src\\main\\jniLibs\\armeabi-v7a\\libappJNI.so"
+    }
+  }
+}

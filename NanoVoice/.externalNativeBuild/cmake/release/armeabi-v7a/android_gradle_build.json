@@ -1,0 +1,49 @@
+
+{
+	"buildFiles" : 
+	[
+		"D:/work/Android/project/androidStudio/JNA_Tool/JnaDemo/NanoVoice/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\drago\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\work\\Android\\project\\androidStudio\\JNA_Tool\\JnaDemo\\NanoVoice\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target clean"
+	],
+	"libraries" : 
+	{
+		"appJNI-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "appJNI",
+			"buildCommand" : "C:\\Users\\drago\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\work\\Android\\project\\androidStudio\\JNA_Tool\\JnaDemo\\NanoVoice\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target appJNI",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/drago/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 -DappJNI_EXPORTS -I..\\..\\..\\..\\src\\main\\jni\\include  --sysroot C:/Users/drago/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Oz -DNDEBUG  -fPIC      -c ",
+					"src" : "D:/work/Android/project/androidStudio/JNA_Tool/JnaDemo/NanoVoice/src/main/jni/appJNI.c",
+					"workingDirectory" : "D:/work/Android/project/androidStudio/JNA_Tool/JnaDemo/NanoVoice/.externalNativeBuild/cmake/release/armeabi-v7a"
+				}
+			],
+			"output" : "D:/work/Android/project/androidStudio/JNA_Tool/JnaDemo/NanoVoice/src/main/jniLibs/armeabi-v7a/libappJNI.so",
+			"toolchain" : "3141996233"
+		},
+		"nanovoice-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "nanovoice",
+			"buildType" : "release",
+			"output" : "D:/work/Android/project/androidStudio/JNA_Tool/JnaDemo/NanoVoice/src/main/jniLibs/armeabi-v7a/libnanovoice.so",
+			"toolchain" : "3141996233"
+		}
+	},
+	"toolchains" : 
+	{
+		"3141996233" : 
+		{
+			"cCompilerExecutable" : "C:/Users/drago/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Users/drago/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}
