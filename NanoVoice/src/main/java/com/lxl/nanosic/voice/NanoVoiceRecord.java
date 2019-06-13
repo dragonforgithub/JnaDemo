@@ -138,9 +138,4 @@ public class NanoVoiceRecord {
         bufferLength = m_in_q.size()*bytes_pkg.length; // 包数*每包长=总数据量(bytes)
         return bufferLength;
     }
-
-
-    /** Native methods, implemented in jni folder */
-    private native int NanoOpen();
-    private native int NanoClose();
 }
