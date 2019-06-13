@@ -65,14 +65,13 @@ public class NanoVoiceRecord {
                 }
             }
         };
-        //传入回调
+        // 开始录音并传入回调
         JnaNanovoice.INSTANCE.nano_open(mDataCallback);
     }
 
     /** API 3:停止录音 **/
     public void stop()
     {
-        //NanoClose(); //调用JNI接口退出录音
         JnaNanovoice.INSTANCE.nano_close(); //调用JNA接口退出录音
         isRecording=false;
     }
